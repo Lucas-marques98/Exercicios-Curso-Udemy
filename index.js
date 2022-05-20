@@ -5,10 +5,11 @@ const peso = 74;
 let alturaEmCm = "1,80 cm";
 let imc;
 let anoNascimento;
+let endereço = ['Rua Antonio Marcos Torres']
 
 imc = peso / (alturaEmCm * alturaEmCm);
 anoNascimento = 2022 - idade;
 console.log(
   `Eu ${nome} ${sobrenome} tenho ${idade} Anos e peso ${peso}Kg e tenho ${alturaEmCm} e Nasci em ${anoNascimento} `
 );
-console.log('o meu IMC é', imc)
+console.log("o meu IMC é", imc);
