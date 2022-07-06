@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio Aula 13</title>
+</head>
+<body>
+    <script>
+    const nome = prompt('Digite Seu nome Completo')
+    document.body.innerHTML += `o seu nome é: <strong>${nome}</strong> </br>` // Diz qual é o seu nome
+    document.body.innerHTML += `o seu nome tem: <strong>${nome.length} Letras </strong> </br>` // Diz quantas letras tem seu nome
+    document.body.innerHTML += `A segunda letra do seu nome é: <strong>${nome[1]}</strong> </br>` // Diz qual é a segunda letra do seu nome (Pode ser usado charAt também)
+    document.body.innerHTML += `Qual o primeiro índice da letra a no seu nome? <strong>${nome.indexOf('a')}</strong> </br>` // Diz qual é o primeiro indice da Letra que você indicar ( no exemplo feito foi a letra A)
+    document.body.innerHTML += `Qual o último índice da letra a no seu nome? <strong>${nome.lastIndexOf('a')}</strong> </br>` // Diz qual é o ultimo indice da Letra indicada (No caso a letra A)
+    document.body.innerHTML += `As últimas 3 letras do seu nome são:<strong>${nome.slice(-3)}</strong>  </br>` // Diz qual é as ultimas tres Letras do Nome.
+    document.body.innerHTML += `As palavras do seu nome são: <strong>${nome.split(' ')}</strong> </br>` // Vai dividir as palavras do meu Nome (é um array)
+    document.body.innerHTML += `Seu nome com letras maiúsculas:<strong>${nome.toUpperCase()}</strong> </br>`// transforma as letras em Maiúsculas
+    document.body.innerHTML += `Seu nome com letras minúsculas: <strong>${nome.toLowerCase()}</strong> </br>` // Transforma as letras em Minúsculas
+    </script>
+</body>
+</html>
