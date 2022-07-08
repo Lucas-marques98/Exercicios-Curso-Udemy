@@ -1,4 +1,4 @@
-### Exercicios Feito No curso Dev Web na UDEMY
+### Exercicios Feito No curso de JavaScript na UDEMY
 
 <img align="center" src="https://cdnsjengenhariae.nuneshost.com/wp-content/uploads/2020/03/udemy-696x365-1.png" alt="Imagem Udemy"/>
 
