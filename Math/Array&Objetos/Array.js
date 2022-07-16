@@ -9,7 +9,7 @@ console.log(nome[6]) // buscando indixes de uma string
 const pessoas = ['Lucas', 'Milena', 'Neide', 400040440,]
 //Adicionando elementos no começo de um Array
 
-pessoas.unshift('Lukinhas Rodrigues')
+pessoas.unshift('Lucas Rodrigues')
 
 
 // Exemplos de Adicionar Elementos no fim de um Array
