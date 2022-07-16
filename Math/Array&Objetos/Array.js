@@ -14,7 +14,7 @@ pessoas.unshift('Lucas Rodrigues')
 
 // Exemplos de Adicionar Elementos no fim de um Array
 // pessoas[0] = 'Lukinhas'  trocando valor de um Array
-// pessoas[4] = 'Marques' // Adicionando um elemento sem colocar dentro de []
+// pessoas[4] = 'Marques' // Adicionando um elemento sem adicionar dentro da Váriavel.
 // pessoas[pessoas.length] = 'Rodrigues' // Outra forma de adicionar um elemento ou
 // pessoas.push('Lucas') Adiciona elementos no fim de um Array
 console.log(pessoas) 
