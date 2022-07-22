@@ -22,3 +22,11 @@ function soma(x, y) {
 console.log(soma(2, 5)) // adiciona o Valor de x e y
 
 console.log(soma(10, 10)) // reutilizando a Função de Soma
+
+// criando Funções anonimas // em formato de váriaveis
+
+const raiz = function (n) {
+  return n ** 0.5;
+};
+
+console.log(raiz(81)) // função para descobrir a Raiz Quadrada de um número
